@@ -1,0 +1,5 @@
+1. go to the backend folder
+2. do npm init -y (package.json created )
+3. install express app
+4. install nodemon (no need to restart the server)
+5. 
