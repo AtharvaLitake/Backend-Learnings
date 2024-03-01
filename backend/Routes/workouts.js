@@ -1,21 +1,15 @@
 const express=require('express')
+const {createWorkout,getWorkouts,getWorkout}=require('../Controllers/workoutController')
 //require express router
 //becoz we dont have access to app
 const router = express.Router()
-
-router.get('/',(req,res)=>{
-    //getting all workouts
-    res.json({msg:'Get all Workouts'})
-})
+//get all workouts
+router.get('/',getWorkouts)
 //get a single workout
-router.get('/:id',(req,res)=>{
-    res.json({msg:'Single Workout'})
-})
+router.get('/:id',getWorkout)
 
 //post a new workout
-router.post('/',(req,res)=>{
-    res.json({msg:'POST A NEW workout'})
-})
+router.post('/', createWorkout)
 
 //delete a workout
 router.delete('/:id',(req,res)=>{

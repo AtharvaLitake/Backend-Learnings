@@ -9,3 +9,6 @@
 access to app inside different file
 9. go to atlas, create a database and connect to it
 10. npm install mongoose
+11. connect to db using mongoose.connect
+12. make a models folder and define a schema
+13. create a controllers folder --> define all the function there
