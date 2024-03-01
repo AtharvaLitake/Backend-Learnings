@@ -2,4 +2,10 @@
 2. do npm init -y (package.json created )
 3. install express app
 4. install nodemon (no need to restart the server)
-5. 
+5. .env set port number
+6. install dotenv
+7. install cors
+8. to keep routes - create different folder -> we will need express router as we do not have 
+access to app inside different file
+9. go to atlas, create a database and connect to it
+10. npm install mongoose
